@@ -1,0 +1,15 @@
+package top.iyuhp.pipelinedemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author dylan
+ */
+@SpringBootApplication
+public class PipelineDemoApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(PipelineDemoApplication.class, args);
+    }
+}
